@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.conteiner{
+  display: flex;
+}
+.side-bar{
+  display: inline-flex;
+  flex-direction: column;
+  /* margin: 5px; */
+  width: 50px;
+  height: 300px;
+  align-items: center;
+  background-color: #6505e2;
+  border-radius: 20px 20px 0px 20px;
+}
+.calendar{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+  
+}
