@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Friends = () => {
-    return ( <h1>friends</h1> );
+    return ( <div 
+        className='side-bar-friends-card'>
+            
+    </div>);
 }
  
 export default Friends;

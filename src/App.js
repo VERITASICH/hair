@@ -17,13 +17,13 @@ function App() {
     <div className='conteiner'>
       <SideBar/>
       <Routes>
-        <Route  path="/1" element={<Calendar/>}/>
-        <Route path="/2" element={<Tasks/>}/>
-        <Route  path="/3" element={<Basket/>}/>
-        <Route path="/4" element={<Friends/>}/>
-        <Route  path="/5" element={<Money/>}/>
-        <Route path="/6" element={<Summary/>}/>
-        <Route  path="/7" element={<Settings/>}/>
+        <Route  path="/" element={<Calendar/>}/>
+        <Route path="/tasks" element={<Tasks/>}/>
+        <Route  path="/basket" element={<Basket/>}/>
+        <Route path="/friends" element={<Friends/>}/>
+        <Route  path="/money" element={<Money/>}/>
+        <Route path="/summary" element={<Summary/>}/>
+        <Route  path="/settings" element={<Settings/>}/>
         <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
     </div>

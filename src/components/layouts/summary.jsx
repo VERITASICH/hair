@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Summary = () => {
-    return ( <h1>summary</h1> );
+    return ( <div 
+        className='side-bar-summary-card'>
+            
+    </div> );
 }
  
 export default Summary;

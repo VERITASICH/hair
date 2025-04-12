@@ -24,7 +24,7 @@ code {
   background-color: #6505e2;
   border-radius: 20px 20px 0px 20px;
 }
-.calendar{
+.side-bar-calendar{
   width: 20px;
   height: 20px;
   background-image: url(/src/icons/calendar.svg);
@@ -32,5 +32,121 @@ code {
   background-size: 80% auto;
   background-position: 50% 50%;
   margin-top: 20px;
-  
+}
+.side-bar-calendar-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-tasks{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/tasks.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-tasks-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/tasks.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-basket{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/basket.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-basket-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/basket.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-friends{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/friends.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-friends-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/friends.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-money{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/money.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-money-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/money.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-summary{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/summary.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-summary-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/summary.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+}
+.side-bar-settings{
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/icons/settings.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
+  margin-top: 20px;
+}
+.side-bar-settings-card{
+  height: 30px;
+  width: 30px;
+  background-color: #b71313;
+  background-image: url(/src/icons/settings.svg);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: 50% 50%;
 }

@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Settings = () => {
-    return ( <h1>settings</h1> );
+    return ( <div 
+        className='side-bar-settings-card'>
+            
+    </div> );
 }
  
 export default Settings;

@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Basket = () => {
-    return ( <h1>Basket</h1> );
+    return ( <div 
+        className='side-bar-basket-card'>
+            
+    </div>
+     );
 }
  
 export default Basket;

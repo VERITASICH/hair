@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Tasks = () => {
-    return ( <h1>tasks</h1> );
+    return ( 
+        <div 
+        className='side-bar-tasks-card'>
+            
+    </div>
+     );
 }
  
 export default Tasks;

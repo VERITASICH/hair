@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Money = () => {
-    return ( <h1>money</h1> );
+    return ( <div 
+        className='side-bar-money-card'>
+            
+    </div> );
 }
  
 export default Money;
