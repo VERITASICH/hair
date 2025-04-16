@@ -1,0 +1,79 @@
+.side-bar {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50px;
+    align-items: center;
+    background-color: #54D3C2;
+    border-radius: 20px 0px 0px 20px;
+    padding: 20px 0;
+}
+
+.side-bar-calendar,
+.side-bar-tasks,
+.side-bar-basket,
+.side-bar-friends,
+.side-bar-money,
+.side-bar-summary,
+.side-bar-settings {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: 50% 50%;
+    margin-bottom: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.side-bar-calendar {
+    background-image: url(/src/icons/calendar.svg);
+}
+
+.side-bar-tasks {
+    background-image: url(/src/icons/tasks.svg);
+}
+
+.side-bar-basket {
+    background-image: url(/src/icons/basket.svg);
+}
+
+.side-bar-friends {
+    background-image: url(/src/icons/friends.svg);
+}
+
+.side-bar-money {
+    background-image: url(/src/icons/money.svg);
+}
+
+.side-bar-summary {
+    background-image: url(/src/icons/summary.svg);
+}
+
+.side-bar-settings {
+    background-image: url(/src/icons/settings.svg);
+}
+
+.side-bar-calendar:hover,
+.side-bar-tasks:hover,
+.side-bar-basket:hover,
+.side-bar-friends:hover,
+.side-bar-money:hover,
+.side-bar-summary:hover,
+.side-bar-settings:hover {
+    opacity: 1;
+}
+
+.side-bar-calendar.active,
+.side-bar-tasks.active,
+.side-bar-basket.active,
+.side-bar-friends.active,
+.side-bar-money.active,
+.side-bar-summary.active,
+.side-bar-settings.active {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 8px;
+    width: 24px;
+    height: 24px;
+} 
